@@ -2,6 +2,8 @@
 from helpers import *
 from stix_bundler import *
 
+import logging
+
 '''Parse command-line arguments for the user to enter'''
 def parseArgs():
     # TODO Add files support for hash files
@@ -33,6 +35,6 @@ def init():
     toParseFiles = getAllFiles(args['dir'])
     parseFiles(toParseFiles)
 
-
-
-init()
+if __name__ == '__main__':
+    logging.basicConfig(filename='errors.log', filemode='w', level=logging.DEBUG)
+    init()

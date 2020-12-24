@@ -2,15 +2,19 @@ import os
 import uuid
 import argparse
 import configparser
+import logging
+import re
 
 from stix2 import Indicator
 from helpers import *
+
+log = logging.getLogger(__name__)
 
 '''Checks the extension of a file to see if an automated import is possible'''
 def extCheck(filename):
     #TODO: Add support for more filetypes to import IOCs from
 
-    acceptable_extensions = ['md', 'txt']
+    acceptable_extensions = ['txt']
 
     ext = filename.split('.')
     try:
@@ -45,15 +49,58 @@ def getAllFiles(dir):
     print(f"[+] Located all files. Final Count: {fileCount}")
     return targetFiles
 
+
+def sanitizeIOC(ioc):
+
+    if re.match("(^|[^a-fA-F0-9])[a-fA-F0-9]{32}([^a-fA-F0-9]|$)", ioc) is not None:
+        return "MD5"
+    elif re.match(r"\b[0-9a-f]{40}\b", ioc) is not None:
+        return "SHA1"
+    elif re.match(r"^[A-Fa-f0-9]{64}$", ioc) is not None:
+        return "SHA256"
+    elif re.match(r"\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}\b", ioc) is not None:
+        return "IPv4"
+    elif re.match(r"^((?!-))(xn--)?[a-z0-9][a-z0-9-_]{0,61}[a-z0-9]{0,1}\.(xn--)?([a-z0-9\-]{1,61}|[a-z0-9-]{1,30}\.[a-z]{2,})$", ioc) is not None:
+        return "Domain"
+    else:
+        return False
+
+
+''' Parse the IOC files for extraction, sanitization, and STIX bundling '''
 def parseFiles(files):
 
-
     print("[+] Parsing files now...")
+
     for file in files:
         with open(file, 'r') as fileObj:
             for line in fileObj:
-                print(line)
 
+                #Skip empty lines
+                if line.rstrip('\n') == "":
+                    continue
+
+                line.rstrip('\n').split(';')
+                # Try to separate a comment from the actual indicator
+                try:
+                    cleanedData = line.rstrip('\n').split(';')
+                    ioc = cleanedData[0]
+                    name = cleanedData[1]
+
+                except ValueError:
+                    log.debug(f"Reverting to using the indicator as identifier for: {line}")
+                    ioc = line.rstrip('\n').split(';')
+                    name = ioc[0]
+
+                except:
+                    log.debug(f"Unknown issue detected for the indicator: {line}")
+                    continue
+
+                finally:
+                    type = sanitizeIOC(ioc)
+
+                    # Invalid IOC or something I don't wish to cover right now!
+                    if type is False:
+                        log.debug(f"IOC type is either incorrect or currently not covered by Stixa. Kindly re-try manual ingestion for {ioc}")
 
 def testStix():
     indicator = Indicator(name="File hash for malware variant",

@@ -60,7 +60,7 @@ def checkOS():
 
     print('''
     ------------------------------
-    STIX Bundler
+    STIXA
 
     Version: 0.1
     Author: Syed Hasan
