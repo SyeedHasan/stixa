@@ -22,7 +22,11 @@ def sanitizeArgs(args):
     #     exit()
 
     # Configure the right directory
-    if not os.path.isdir(args['dir']):
+    if not args['dir']:
+        print("[INFO] Reverting to the current directory for a file search")
+        args['dir'] = '.'
+
+    elif os.path.isdir(args['dir']):
         print('[ERROR] Specified path does not exist')
         exit()
 
