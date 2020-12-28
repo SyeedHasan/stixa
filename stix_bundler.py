@@ -5,7 +5,7 @@ import configparser
 import logging
 import re
 
-from stix2 import Indicator
+from stix2 import Indicator, Bundle
 from helpers import *
 
 log = logging.getLogger(__name__)
@@ -65,13 +65,18 @@ def sanitizeIOC(ioc):
     else:
         return False
 
-
 def createIndicators(IOC, name, iocType):
 
     pattern = f"[{iocType} = '{IOC}']"
 
     indicator = Indicator(name=name, pattern=pattern, pattern_type="stix")
     return indicator
+
+def bundleIndicators(indicators):
+
+    bundle = Bundle(*indicators).serialize()
+
+    return bundle
 
 ''' Parse the IOC files for extraction, sanitization, and STIX bundling '''
 def parseFiles(files):
@@ -114,7 +119,11 @@ def parseFiles(files):
 
 
     print("[+] Completed Parsing. Total Number of Indicators:", len(allIndicators))
-    bundleIndicators()
+
+
+    finalBundle = bundleIndicators(allIndicators)
+    print("[+] Completed forming a bundle")
+    saveJsonData(finalBundle)
 
 
 def testStix():

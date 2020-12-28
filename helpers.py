@@ -4,6 +4,7 @@ import time
 import platform
 import os
 import json
+import magic
 
 '''
 
@@ -30,16 +31,19 @@ Filesystem Functions
 
 '''
 
-def saveJsonData(self, data):
+def saveJsonData(data):
+    type(data)
     try:
-        os.mkdir('data')
+        os.mkdir('DATA')
     except FileExistsError:
         pass
     with open(f'STIX_{currDate()}.json', 'w', encoding="utf-8") as opFile:
         # for obj in data:
-        json.dump(data, opFile, ensure_ascii=False, indent=4, )
-
-
+        try:
+           json.dump(data, opFile, ensure_ascii=False, indent=4)
+        except:
+            jsonStr = json.dumps(data, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+            opFile.write(jsonStr)
 '''
 
 General Functions
