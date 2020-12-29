@@ -98,24 +98,26 @@ def parseFiles(files):
                     cleanedData = line.rstrip('\n').split(';')
                     ioc = cleanedData[0]
                     name = cleanedData[1]
+                    print("Try: ", ioc, name)
 
-                except ValueError:
+                except IndexError:
                     log.debug(f"Reverting to using the indicator as identifier for: {line}")
-                    ioc = line.rstrip('\n').split(';')
-                    name = ioc[0]
+                    ioc = line.rstrip('\n')
+                    name = ioc
+                    print("Except Value: ", ioc, name)
 
                 except:
                     log.debug(f"Unknown issue detected for the indicator: {line}")
-                    continue
 
                 finally:
-                    iocType = sanitizeIOC(ioc)
+                    if ioc:
+                        iocType = sanitizeIOC(ioc)
 
-                    # Invalid IOC or something I don't wish to cover right now!
-                    if type is False:
-                        log.debug(f"IOC type is either incorrect or currently not covered by Stixa. Kindly re-try manual ingestion for {ioc}")
+                        # Invalid IOC or something I don't wish to cover right now!
+                        if type is False:
+                            log.debug(f"IOC type is either incorrect or currently not covered by Stixa. Kindly re-try manual ingestion for {ioc}")
 
-                    allIndicators.append(createIndicators(ioc, name, iocType))
+                        allIndicators.append(createIndicators(ioc, name, iocType))
 
 
     print("[+] Completed Parsing. Total Number of Indicators:", len(allIndicators))

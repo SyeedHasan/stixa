@@ -1,194 +1,192 @@
-DEBUG:stix_bundler:Unknown issue detected for the indicator: d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 439bcd0a17d53837bc29fb51c0abd9d52a747227f97133f8ad794d9cc0ef191e
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 439bcd0a17d53837bc29fb51c0abd9d52a747227f97133f8ad794d9cc0ef191e
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: abe22cf0d78836c3ea072daeaf4c5eeaf9c29b6feb597741651979fc8fbd2417
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 53f8dfc65169ccda021b72a62e0c22a4db7c4077f002fa742717d41b3c40f2c7
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 53f8dfc65169ccda021b72a62e0c22a4db7c4077f002fa742717d41b3c40f2c7
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 6e4050c6a2d2e5e49606d96dd2922da480f2e0c70082cc7e54449a7dc0d20f8d
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 6e4050c6a2d2e5e49606d96dd2922da480f2e0c70082cc7e54449a7dc0d20f8d
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 1b476f58ca366b54f34d714ffce3fd73cc30db1a
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 1b476f58ca366b54f34d714ffce3fd73cc30db1a
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 76640508b1e7759e548771a5359eaed353bf1eec
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 76640508b1e7759e548771a5359eaed353bf1eec
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 2f1a5a7411d015d01aaee4535835400191645023
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 2f1a5a7411d015d01aaee4535835400191645023
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: b485953ed77caefe81bff0d9b349a33c5cea4cde
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: b485953ed77caefe81bff0d9b349a33c5cea4cde
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 76640508b1e7759e548771a5359eaed353bf1eec
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 76640508b1e7759e548771a5359eaed353bf1eec
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 5e643654179e8b4cfe1d3c1906a90a4c8d611cea
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 5e643654179e8b4cfe1d3c1906a90a4c8d611cea
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: cfc57d48effb5bbd4e0a6f80e6041d9faf7d7ab4
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: cfc57d48effb5bbd4e0a6f80e6041d9faf7d7ab4
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: d130bd75645c2433f88ac03e73395fba172ef676
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: d130bd75645c2433f88ac03e73395fba172ef676
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 75af292f34789a1c782ea36c7127bf6106f595e8
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 75af292f34789a1c782ea36c7127bf6106f595e8
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: c2c30b3a287d82f88753c85cfb11ec9eb1466bad
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: c2c30b3a287d82f88753c85cfb11ec9eb1466bad
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: ebe711516d0f5cd8126f4d53e375c90b7b95e8f2
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: ebe711516d0f5cd8126f4d53e375c90b7b95e8f2
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: b91ce2fa41029f6955bff20079468448
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: b91ce2fa41029f6955bff20079468448
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 08e35543d6110ed11fdf558bb093d401
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 08e35543d6110ed11fdf558bb093d401
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 02af7cec58b9a5da1c542b5a32151ba1
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 02af7cec58b9a5da1c542b5a32151ba1
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 846e27a652a5e1bfbd0ddd38a16dc865
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 846e27a652a5e1bfbd0ddd38a16dc865
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 2c4a910a1299cdae2a4e55988a2f102e
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 2c4a910a1299cdae2a4e55988a2f102e
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: d5aad0d248c237360cf39c054b654d69
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: d5aad0d248c237360cf39c054b654d69
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 3e329a4c9030b26ba152fb602a1d5893
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 3e329a4c9030b26ba152fb602a1d5893
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: e18a6a21eb44e77ca8d739a72209c370
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: e18a6a21eb44e77ca8d739a72209c370
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: baa3d3488db90289eb2889c1a2acbcde
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: baa3d3488db90289eb2889c1a2acbcde
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 56ceb6d0011d87b6e4d7023d7ef85676
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 56ceb6d0011d87b6e4d7023d7ef85676
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 4f2eb62fa529c0283b28d05ddd311fae
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 3.87.182.149
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 4f2eb62fa529c0283b28d05ddd311fae
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 3.87.182.149
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 3.16.81.254
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 3.16.81.254
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 54.215.192.52
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 54.215.192.52
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.11
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.11
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.12
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.12
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.9
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.9
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.20
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.20
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.40
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.40
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.44
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.44
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.62
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.62
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.130
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.130
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.135
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.135
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.136
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.136
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.149
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.149
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.156
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.156
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.158
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.158
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.165
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.165
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.170
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.170
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.180
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.180
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.144.188
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.144.188
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.3
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.3
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.21
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.21
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.33
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.33
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.36
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.36
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.131
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.131
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.134
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.134
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.136
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.136
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.139
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.139
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.150
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.150
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.157
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.157
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 8.18.145.181
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 8.18.145.181
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 13.57.184.217
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 13.57.184.217
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 18.217.225.111
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 18.217.225.111
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 18.220.219.143
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 18.220.219.143
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 20.141.48.154
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 20.141.48.154
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 34.219.234.134
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 34.219.234.134
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.1.3
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.1.3
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.21.54
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.21.54
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.48.22
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.48.22
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.101.22
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.101.22
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.113.55
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.113.55
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.145.34
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.145.34
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.209.33
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.209.33
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.212.52
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.212.52
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.224.3
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.224.3
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.229.1
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.229.1
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.240.3
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.240.3
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 184.72.245.1
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 184.72.245.1
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 196.203.11.89
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 196.203.11.89
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 54.193.127.66
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: 54.193.127.66
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: deftsecurity.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: deftsecurity.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: avsvmcloud.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: avsvmcloud.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: digitalcollege.org
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: digitalcollege.org
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: freescanonline.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: freescanonline.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: globalnetworkissues.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: globalnetworkissues.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: kubecloud.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: kubecloud.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: lcomputers.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: lcomputers.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: seobundlekit.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: seobundlekit.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: solartrackingsystem.net
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: solartrackingsystem.net
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: thedoccloud.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: thedoccloud.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: virtualwebdata.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: virtualwebdata.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: webcodez.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: webcodez.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: thedoccloud.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: thedoccloud.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: ervsystem.com
 
-DEBUG:stix_bundler:Unknown issue detected for the indicator: ervsystem.com
-
-DEBUG:stix_bundler:Unknown issue detected for the indicator: infinitysoftwares.com
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: infinitysoftwares.com
