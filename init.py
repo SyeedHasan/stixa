@@ -1,4 +1,3 @@
-
 from helpers import *
 from stix_bundler import *
 
@@ -16,18 +15,14 @@ def parseArgs():
 '''Sanitize the command-line arguments after a basic check'''
 def sanitizeArgs(args):
 
-    # Check to see the configuration file exists in the main directory
-    # if not (os.path.exists(args['config'])):
-    #     print(f"[-] Error reading the configuration file: {args['config']}")
-    #     exit()
-
-    # Configure the right directory
-    if not args['dir']:
+    if not args['dir'] and not args['file']:
         print("[INFO] Reverting to the current directory for a file search")
         args['dir'] = '.'
-
-    elif os.path.isdir(args['dir']):
+    elif args['dir'] and os.path.isdir(args['dir']):
         print('[ERROR] Specified path does not exist')
+        exit()
+    elif args['file'] and os.path.exists(args['file']):
+        print('[ERROR] Specified file does not exist')
         exit()
 
 def init():
