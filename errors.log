@@ -10,6 +10,8 @@ DEBUG:stix_bundler:Reverting to using the indicator as identifier for: ce77d116a
 
 DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134
 
+DEBUG:stix_bundler:Reverting to using the indicator as identifier for: abe22cf0d78836c3ea072daeaf4c5eeaf9c29b6feb597741651979fc8fbd2417
+
 DEBUG:stix_bundler:Reverting to using the indicator as identifier for: 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77
 
 DEBUG:stix_bundler:Reverting to using the indicator as identifier for: d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600
