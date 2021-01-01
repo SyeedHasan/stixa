@@ -34,13 +34,17 @@ def saveJsonData(data):
         pass
     with open(f'STIX_{currDate()}.json', 'w', encoding="utf-8") as opFile:
         # for obj in data:
-        try:
-           json.dump(data, opFile, ensure_ascii=False, indent=4)
-           print('[INFO] Successfully wrote a JSON file in the same directory.')
-        except:
-            jsonStr = json.dumps(data, default=lambda o: o.__dict__, sort_keys=True, indent=4)
-            opFile.write(jsonStr)
-            print('[INFO] Successfully wrote a JSON file in the same directory.')
+        # try:
+        #     json.dump(data, opFile, ensure_ascii=False, indent=4)
+        #     print('[INFO] Successfully wrote a JSON file in the same directory.ffds')
+        # except:
+        #     jsonStr = json.dumps(data, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+        #     # opFile.write(jsonStr)
+        #     print('[INFO] Successfully wrote a JSON file in the same directory.')
+        # finally:
+
+        # Since the data is already serialized by STIX2, we don't need another go.
+        opFile.write(data)
 
 '''Checks the extension of a file to see if an automated import is possible'''
 def extCheck(filename):

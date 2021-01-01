@@ -1,4 +1,5 @@
 import os
+import csv
 import uuid
 import argparse
 import configparser
@@ -37,7 +38,7 @@ def createIndicators(IOC, name, iocType):
 
 def bundleIndicators(indicators):
 
-    bundle = Bundle(*indicators).serialize()
+    bundle = Bundle(*indicators).serialize(indent=4)
     return bundle
 
 def textFileParser(file):
@@ -81,6 +82,26 @@ def textFileParser(file):
 
 def csvFileParser(file):
     print(f'[INFO] Parsing the CSV file {file}')
+
+    lineNum = 0
+    headers = []
+    parsedData = []
+
+    with open(file) as csvFile:
+        csvReader = csv.reader(csvFile, delimiter=',')
+        for row in csvReader:
+            if lineNum == 0:
+                for val in row:
+                    headers.append(val)
+                lineNum += 1
+            else:
+                for num, val in enumerate(row):
+                    key = headers[num]
+                    parsedData.append({
+                        key: val
+                    })
+
+    print(parsedData)
     return []
 
 ''' Parse the IOC files for extraction, sanitization, and STIX bundling '''
